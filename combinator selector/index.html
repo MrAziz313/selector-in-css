@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selectors</title>
+    <style>
+    /* direct children target  */
+.box >h1{
+background-color: aqua;
+width: 200px;
+}
+h1{
+            background-color: red;
+            padding: 20px;
+        }
+         /* direct children target  */
+
+         a ~ p{
+            background-color: yellow;
+            height: 240px;
+         }
+    </style>
+</head>
+<body>
+ <!-- direct children target -->
+ <h1>1 heading</h1>
+ <div class="box">
+     <span>
+         <h1>3 heading</h1>
+     </span>
+<h1>2 heading</h1>
+
+ </div>
+ <!-- direct children target -->
+  <div class="box1">
+    <a href="#"> Welcome</a>
+    <p>AoA</p>
+    <p>Ws</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus, eum et modi velit fugit libero voluptate officia quam, cum consectetur tempora facere maiores eveniet dolore nisi expedita dolorem dicta.</p>
+  </div>
+</body>
+</html>
